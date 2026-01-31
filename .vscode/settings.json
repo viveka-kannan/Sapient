@@ -1,0 +1,12 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.jdt.ls.java.home": "C:\\Developments\\tools\\Java\\jdk-25",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-25",
+            "path": "C:\\Developments\\tools\\Java\\jdk-25",
+            "default": true
+        }
+    ],
+    "spring-boot.ls.java.home": "C:\\Developments\\tools\\Java\\jdk-25"
+}
