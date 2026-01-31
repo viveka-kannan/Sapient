@@ -11,6 +11,10 @@ I focused on two main scenarios: browsing available shows (read-heavy) and booki
 ## How to Run
 
 ```bash
+# Windows
+mvnw.cmd spring-boot:run
+
+# Mac/Linux
 ./mvnw spring-boot:run
 ```
 
@@ -98,14 +102,4 @@ src/main/java/com/moviebooking/
 └── config/          # App configuration
 ```
 
-## What I'd Add Next
 
-1. User authentication and booking history
-2. Payment gateway integration (Razorpay/Stripe)
-3. Real-time seat status updates via WebSocket
-4. Email confirmations
-5. Admin APIs for theatre partners to manage shows
-
----
-
-Built for demonstration purposes. The focus was on clean code, proper error handling, and solving the concurrency problem correctly.
